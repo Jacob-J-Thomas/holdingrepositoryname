@@ -1,0 +1,182 @@
+header {
+  font-family: 'andale mono', monospace;
+  width:100vw;
+  height: 100vh;
+  margin-bottom: 200px;
+}
+h1 {
+  font-size: 8vw;
+}
+h3 {
+  font-size: 4vw;
+}
+div #contentDiv {
+  overflow-x: hidden;
+}
+body {
+  /*font-size: 2vw;need to figure out how to scale buttons and inputs with text*/
+  font-family: 'Courier New', monospace;
+  /*font-weight: bold;*/
+  margin-bottom: 1000px;
+  overflow-x: hidden;
+}
+div #commandDivHome {
+  background-color: black;
+  color: white;
+  width: 800px;
+  max-width: 90vw;
+  height: 500px;
+  box-shadow: 5px -5px 20px grey;
+  position: relative;
+  overflow-x: hidden;
+}
+div #commandDiv {
+  background-color: black;
+  color: white;
+  width: 90vw;
+  max-width: 1200px;
+  box-shadow: 5px -5px 20px grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatey(-50%) translatex(-50%)
+}
+div #commandBarDiv {
+  background-color: #68768A;
+  color: white;
+  overflow-x: hidden;
+}
+div #inputAreaHome {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+div #inputArea {        /*how to make this appear at the bottom, even when a scroll bar is needed?*/
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+div #textDisplay {
+  margin: 10px;
+  line-height: 32px;
+}
+div #changeNameDiv0 {
+  font-size: 32px;
+  /*transform: rotate(-20deg); turns things sideways, might be interesting for the changeNameDivs*/
+  position: relative;
+  bottom: 100px;
+  right: 100px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv1 {
+  font-size: 18px;
+  position: relative;
+  top: 120px;
+  right: 550px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv2 {
+  font-size: 24px;
+  position: relative;
+  top: 200px;
+  left: 550px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv3 {
+  font-size: 48px;
+  position: relative;
+  bottom: 70px;
+  right: 325px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv4 {
+  font-size: 12px;
+  position: relative;
+  bottom: 160px;
+  left: 400px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv5 {
+  font-size: 36px;
+  position: relative;
+  top: 300px;
+  right: 425px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv6 {
+  font-size: 36px;
+  position: relative;
+  top: 600px;
+  right: 550px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv7 {
+  font-size: 18px;
+  position: relative;
+  top: 725px;
+  left: 525px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv8 {
+  font-size: 18px;
+  position: relative;
+  top: 120px;
+  right: 550px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv9 {
+  font-size: 24px;
+  position: relative;
+  top: 200px;
+  left: 550px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv10 {
+  font-size: 36px;
+  position: relative;
+  bottom: 10px;
+  right: 200px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv11 {
+  font-size: 12px;
+  position: relative;
+  top: 300px;
+  right: 50px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+div #changeNameDiv12 {
+  font-size: 36px;
+  position: relative;
+  top: 190px;
+  right: 125px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+img {
+  height: 50vh;
+}
+footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 80%;
+  font-family: "Courier New", monospace;
+  box-shadow: 5px -5px 20px grey;
+  overflow-x: hidden;
+}
